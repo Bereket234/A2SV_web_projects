@@ -1,0 +1,36 @@
+.card{
+    width: 30%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5)
+}
+
+.image{
+   width: 100px; 
+   border-radius: 50%;
+   margin-top: 20px;
+
+}
+.name{
+    font-size: 40px;
+    padding-top: 15px;
+    font-weight: 600;
+    margin: -10px;
+}
+
+.description{
+    padding: 15px;
+}
+.textbox{
+    padding: 15px;
+    text-align: center;
+}
+
+.email{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
